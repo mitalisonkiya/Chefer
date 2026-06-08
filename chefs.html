@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   
+     <link href="https://googleapis.com" rel="stylesheet"> 
+     <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+     <nav class="navbar-nav navbar-expand-sm" id="navbar" >
+     <div class="container-fluid">
+    <div class="row">
+    <a class="navbar-brand border-warning text-lg col-md-5 p-4 text-center" href="#" style="background-color: orangered; color:white; font-family:'playfair-display',sans-serief; font-size:40px; height:30%; width:20%;" >CHEFER</a>
+    <div class="col-sm-7">
+    <div class="contaner-fluid text-secondary justify-content-end" style="background-color: rgb(52, 52, 52); width:140%">
+        <div class="d-flex gap-3 small">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="#"><i class="bi bi-envelope-fill" style="font-size: 1em; color: #ff4400;"></i>info@example.com</a>
+            </li>
+            <li class="nav-item justify-content-end">
+                <a class="nav-link" href="#"><i class="bi bi-phone-fill" style="font-size: 1em; color: #ff4400;"></i>+012 345 6789</a>
+            </li>
+    </div>
+    </div>
+    
+    <ul class="navbar-nav navbar-expand-sm justify-content-around p-3" style="background-color:rgb(0, 0, 0); color:white; width:140%">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active-warning" href="chefs.html">Chefs</a>
+        </li>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="features.html">Features</a></li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                <li><a class="dropdown-item" href="404 error.html">404 ERROR</a></li>
+            </ul>
+        </div>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item justify-content-end">
+            <a class="nav-link" href="#"><i class="bi bi-facebook" style="font-size: 1em; color: #ff4400;"></i></a>
+        </li>
+        <li class="nav-item justify-content-end">
+            <a class="nav-link" href="#"><i class="bi bi-twitter" style="font-size: 1em; color: #ff4400;"></i></a>
+        </li>
+        <li class="nav-item justify-content-end">
+            <a class="nav-link" href="#"><i class="bi bi-linkedin" style="font-size: 1em; color: #ff4400;"></i></a>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+   </nav> 
+  
+   <div class="container-fluid bg-dark text-light text-center p-5">
+     <h1 class="text-center mt-4 mb-5">Chefs</h1>
+   </div>
+   
+   <div class="container-fluid p-5">
+        <div class="mb-5 text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px; margin: auto;">
+            <h5 class="section-title" style="color:#ff4400">Expert Chefs</h5>
+            <h1 class="display-3 mb-0">Let's Meet The Expert</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded-circle rounded-bottom rounded-end">
+                        <img class="img-fluid w-100" src="images/team-1.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 d-flex flex-column justify-content-center w-100 rounded-bottom text-center"
+                        style="height: 100px; background: rgba(34, 36, 41, .9);">
+                        <h5 class="text-light">John Deo</h5>
+                        <p class="small text-uppercase text-secondary m-0" style="letter-spacing: 3px;">Master Chef</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded-circle rounded-bottom rounded-end">
+                        <img class="img-fluid w-100" src="images/team-2.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 d-flex flex-column justify-content-center w-100 rounded-bottom text-center"
+                        style="height: 100px; background: rgba(34, 36, 41, .9);">
+                        <h5 class="text-light">John Deo</h5>
+                        <p class="small text-uppercase text-secondary m-0" style="letter-spacing: 3px;">Assistant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="team-item position-relative">
+                    <div class="position-relative overflow-hidden rounded-circle rounded-bottom rounded-end">
+                        <img class="img-fluid w-100" src="images/team-3.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute start-0 bottom-0 d-flex flex-column justify-content-center w-100 rounded-bottom text-center"
+                        style="height: 100px; background: rgba(34, 36, 41, .9);">
+                        <h5 class="text-light">John Deo</h5>
+                        <p class="small text-uppercase text-secondary m-0" style="letter-spacing: 3px;">Assistant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div> 
+
+ <div class="d-flex container-fluid bg-dark" style="flex-direction: row; display:flex; flex-wrap:nowrap"> 
+        <img src="images/menu-1.jpg" alt="menu1" width="17%" >
+        <img src="images/menu-2.jpg" alt="menu2" width="17%">
+        <img src="images/menu-3.jpg" alt="menu3" width="17%">
+        <img src="images/menu-4.jpg" alt="menu4" width="17%">
+        <img src="images/menu-5.jpg" alt="menu5" width="17%">
+        <img src="images/menu-6.jpg" alt="menu6" width="17%">
+        
+        </div>
+ <div class="container-fluid bg-dark p-5">
+    <div class="row">
+        <div class="col-sm-3">
+            <h3 class="text-light">Get in touch</h3>
+            <ul class="text-light" style="list-style-type: none;">
+                <li> <i class="bi bi-geo-alt" style="font-size: 1em; color: #ff5500;"></i> 123 Street, New York, USA</li>
+                <li> <i class="bi bi-envelope-open" style="font-size: 1em; color: #ff5500;"></i> info@example.com</li>
+                 <li><i class="bi bi-telephone" style="font-size: 1em; color: #ff5500;"></i></i>+012 345 67890</li> 
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h3 class="text-light">Quick Links</h3>
+            <ul class="text-light" style="list-style-type: none;">
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Home</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>About us</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Food Menu</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Our chefs</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Latest blogs</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Contact Us</li> 
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h3 class="text-light">More Links</h3>
+            <ul class="text-light" style="list-style-type: none;">
+               <li ><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Home</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>About us</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Food Menu</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Our chefs</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Latest blogs</li> 
+               <li><i class="bi bi-arrow-right" style="font-size: 1em; color: #ff6f00;"></i>Contact Us</li> 
+            </ul>
+        </div>
+        <div class="col-sm-3 text-center p-3" style="background-color:black; color:white">
+            <h3>Newsletter</h3>
+            <h5>SUBSCRIBE OUR NEWSLETTER</h5>
+            <p>Amet justo diam dolor rebum lorem sit stet sea <br>justo kasd</p>
+            <form>
+                <div class="input-group">
+                    <input  type="email" id="email" placeholder="Your Email" name="Email">
+                
+                <div class="input-group-btn">
+                    <button type="submit" style="font-family:playfair-display,serif; background-color:#ff4400">Sign Up</button>
+                </div>
+            </div>  
+            </form>
+        </div>
+    </div>
+ </div> 
+ <div class="footer p-3" style="background-color: black; color:white">
+    <h5><pre>© Your Site Name. All Rights Reserved. Distributed by ThemeWagon                                                 Designed by HTML Codex</pre></h5>
+ </div> 
+ 
+</body>
+</html>
